@@ -30,7 +30,7 @@ a {
     background: linear-gradient(-90deg, #4B2F21 0%, #40281c 100%);
 }
 .box-wrapper {
-    height: 600px;
+    height: 37.5rem;
     color: var(--color-background);
     display: flex;
     flex-direction: row;
@@ -39,16 +39,19 @@ a {
 }
 .box-text-block {
     width: 50%;
-    padding: 50px;
+    padding: 3.125rem;
 }
 .main-heading {
-    padding-bottom: 30px;
+    margin-bottom: 2.5vw;
     text-transform: uppercase;
     text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    line-height: 3rem;
 }
 .main-description {
     text-align: justify;
-    padding-bottom: 40px;
+    margin-bottom: 3.5vw;
 }
 .button-wrapper {
     margin: 1.5rem 2rem;
