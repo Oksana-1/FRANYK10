@@ -1,8 +1,9 @@
 /* semantic color variables for this project */
 :root {
   --color-white: white;
-  --color-background: #F4EDE6;
-  --color-accent: #4B2F21;
+  --color-background: #f1dcc7;
+  --color-ligt-brown:#a26c50;
+  --color-main-brown: #4B2F21;
   --color-text: black;
 }
 
