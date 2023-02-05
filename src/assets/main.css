@@ -33,30 +33,69 @@ a:focus {
 }
 
 /* home page */
-.main-wrapper {  
-    background: var(--color-main-brown);
-    color: var(--color-white);
+.main-photo-wrap {
+    position: relative;
+    height: 45rem;
+    width: 100%;
+    background-image: url('./img/pexels-afta-putta-gunawan-683039.jpg');    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: var(--color-background);
 }
-.box-wrapper {
+.main-box-img {
+    background-color: rgba(14, 13, 12, 0.364);
+    height: 45rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+.main-heading {
+    margin-bottom: 2.5vw;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 3em;
+    font-weight: 600;
+    line-height: 3rem;
+}
+.sub {
+    color: var(--color-background);
+    font-style: italic;
+}
+.secoundary-block-element{
+    height: 35rem;
+    background-color: var(--color-white);
+    color: var(--color-text);
+    font-size: 1.4em;
+    line-height: 3rem;
+    text-align: center;
+    margin: 2vw;
+}
+.secoundary-header {
+    margin: 5vw 0;
+    font-weight: 700;
+}
+.secoundary-text-wrap {
+}
+
+
+.brown-box_wrapper {
+    color: var(--color-white);
+    background-color: var(--color-main-brown);
     height: 37.5rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
+
 .box-text-block {
     width: 50%;
     padding: 3.125rem;
 }
-.main-heading {
-    margin-bottom: 2.5vw;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 3px;
-    font-weight: 600;
-    line-height: 3rem;
-}
-.main-description {
+.description {
     text-align: justify;
     margin-bottom: 3.5vw;
 }
@@ -75,19 +114,50 @@ a:focus {
 }
 .main-button:hover {
     background-color: rgba(255,255,255,0.2);
-    border: 1px solid var(--color-white);
+    border: 1px solid var(--color-background);
     color: inherit;
 }
 .box-img-block {
     width: 50%;
     height: 100%;
 }
-.main-img {
+.coffee-img{
     background-image: url('./img/main-coffee-photo.jpg') ;
     height: 100%;
     background-size: cover;
     background-position: center;
 }
+
+.ligth-box_wrapper {
+    background-color: var(--color-background);
+    color: var(--color-main-brown);
+    height: 37.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.aditional-coffee-img {
+    background-image: url('./img/additional-photo.jpg') ;
+    height: 100%;
+    background-size: cover;
+    background-position:  30% 70% ;
+}
+.dark-button {
+    color: var(--color-main-brown);
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 15px 30px;
+    border: 1px solid var(--color-main-brown);
+    letter-spacing: 5px;
+    transition: 0.2s ease-in-out;
+}
+.dark-button:hover {
+    background-color: rgba(75, 38, 14, 0.2);
+    border: 1px solid var(--color-main-brown);
+    color: inherit;
+}
+/* footer style */
 .footer {
     display: flex;
     flex-direction: row;
@@ -100,4 +170,38 @@ a:focus {
     font-size: 1.2rem;
     font-weight: 600;
     letter-spacing: 2px;
+}
+/*City Pages styles*/
+.photo-wrap {
+    position: relative;
+    height: 45rem;
+    width: 100%;
+    background-image: url('./img/ivano-frankivsk.jpg');    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.city__img-holder {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 45rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-background);
+}
+.city__header {
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 3vw;
+    text-align: center;
+}
+.city__text-wrap {
+    max-width: 60rem;
+    margin: 3vw ;
+    text-align: center;
+}
+.franyk1 {
+
 }
