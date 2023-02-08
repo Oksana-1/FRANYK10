@@ -19,7 +19,7 @@
 a {
     text-decoration: none;
     letter-spacing: 2px;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     font-weight: 600;
     color: var(--color-main-brown);
     transition: 0.3s ease-in-out;
@@ -76,11 +76,11 @@ a:focus {
 .secoundary-header {
     margin: 5vw 0;
     font-weight: 700;
+    text-align: center;
 }
 .secoundary-text-wrap {
+    text-align: center;
 }
-
-
 .brown-box_wrapper {
     color: var(--color-white);
     background-color: var(--color-main-brown);
@@ -90,7 +90,6 @@ a:focus {
     justify-content: center;
     align-items: center;
 }
-
 .box-text-block {
     width: 50%;
     padding: 3.125rem;
@@ -98,17 +97,19 @@ a:focus {
 .description {
     text-align: justify;
     margin-bottom: 3.5vw;
+    margin: 2rem;
+    color: var(--color-text);
 }
 .button-wrapper {
     margin: 1.5rem 2rem;
     text-align: center;
 }
 .main-button {
-    color: var(--color-white);
+    color: var(--color-background);
     text-transform: uppercase;
     display: inline-block;
     padding: 15px 30px;
-    border: 1px solid var(--color-white);
+    border: 1px solid var(--color-background);
     letter-spacing: 5px;
     transition: 0.2s ease-in-out;
 }
@@ -202,6 +203,68 @@ a:focus {
     margin: 3vw ;
     text-align: center;
 }
-.franyk1 {
+.text-wrap {
+    padding: 2rem 5rem;
+    text-align: justify;
+    margin-bottom: 3rem;
+}
 
+
+.article-block-cafes {
+    display: flex;
+    flex-direction: row;
+}
+.articles-wrapper {
+}
+.ligth-asymetry-block {
+    margin-top: 10rem;
+    padding: 60px 30px;
+    display: block;
+    position: relative;
+}
+.ligth-asymetry-block::before,
+.dark-asymetry-block::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #F4EDE6;
+}
+.img-holder {
+    margin: 2rem;
+    height: 85vh;
+}
+.franyk1 {
+    top: -250px;
+    height: 40rem;
+    background-image: url('./img/pexels-cottonbro-studio-3205736.jpg');    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.dark-asymetry-block {
+    padding: 60px 30px;
+    display: block;
+    position: relative;
+    background: #77442E;
+    background: -webkit-gradient(linear, left bottom, left top, from(#77442E), to(#6c3e2a));
+    background: linear-gradient(0deg, #77442E 0%, #6c3e2a 100%);
+}
+
+.franyk2 {
+    height: 25rem;
+    width: 100%;
+    background-image: url('./img/pexels-samer-daboul-1627933.jpg');    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.button {
+    display: flex;
+    
 }

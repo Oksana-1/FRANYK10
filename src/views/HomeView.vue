@@ -9,22 +9,24 @@
     <div class="secoundary-block-element">
       <h2 class="secoundary-header">Lorem ipsum dolor, sit amet consectetur</h2>
       <p class="secoundary-text-wrap">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat, culpa.
-        Assumenda deleniti maiores eum nesciunt itaque voluptatum corrupti exercitationem
-        adipisci cupiditate nobis inventore, libero incidunt! Eum nam quasi eligendi
-        possimus. Aut quasi, ratione perferendis unde porro nisi recusandae minima numquam
-        debitis veritatis neque quos placeat. Mollitia itaque explicabo similique tempore,
-        culpa sint quae temporibus! Excepturi veniam ipsum repellat labore voluptate.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat,
+        culpa. Assumenda deleniti maiores eum nesciunt itaque voluptatum
+        corrupti exercitationem adipisci cupiditate nobis inventore, libero
+        incidunt! Eum nam quasi eligendi possimus. Aut quasi, ratione
+        perferendis unde porro nisi recusandae minima numquam debitis veritatis
+        neque quos placeat. Mollitia itaque explicabo similique tempore, culpa
+        sint quae temporibus! Excepturi veniam ipsum repellat labore voluptate.
       </p>
     </div>
     <div class="brown-box_wrapper">
       <div class="box-text-block">
         <p class="description">
-          Ви любите каву? Я, до прикладу, просто обожнюю... ну й історично так склалось що
-          найчастіше я смакую її саме у Києві, Черкасах та Франківську. Тож на цьому сайті
-          зібрано ТОП мої улюблених кав'ярень і просто крутих та затишних місць, де можна
-          посидіти з горнятком кави, насолодитись видом на місто або прийти працювати до
-          надійного Wi-Fi коли вдома "планово" вимкнули світло...
+          Ви любите каву? Я, до прикладу, просто обожнюю... ну й історично так
+          склалось що найчастіше я смакую її саме у Києві, Черкасах та
+          Франківську. Тож на цьому сайті зібрано ТОП мої улюблених кав'ярень і
+          просто крутих та затишних місць, де можна посидіти з горнятком кави,
+          насолодитись видом на місто або прийти працювати до надійного Wi-Fi
+          коли вдома "планово" вимкнули світло...
         </p>
         <div class="button-wrapper">
           <a href="" class="main-button">Перейти до огляду</a>
@@ -40,11 +42,12 @@
       </div>
       <div class="box-text-block">
         <p class="description">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, similique
-          voluptatem neque nemo deleniti temporibus? Enim quas alias, sapiente perferendis
-          cumque iste obcaecati, neque adipisci maiores natus optio, facilis ut! Ipsam
-          nemo veniam quisquam alias. Vitae atque quae, quam qui ipsam voluptates maiores.
-          Nesciunt magnam obcaecati at deleniti eum possimus. Recusandae minus
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci,
+          similique voluptatem neque nemo deleniti temporibus? Enim quas alias,
+          sapiente perferendis cumque iste obcaecati, neque adipisci maiores
+          natus optio, facilis ut! Ipsam nemo veniam quisquam alias. Vitae atque
+          quae, quam qui ipsam voluptates maiores. Nesciunt magnam obcaecati at
+          deleniti eum possimus. Recusandae minus
         </p>
         <div class="button-wrapper">
           <a href="" class="dark-button">Перейти до огляду</a>
