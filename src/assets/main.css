@@ -7,6 +7,13 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    box-shadow: 0px 10px 20px 0px rgb(0 0 0 / 3%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 50;
+    background-color: var(--color-white);
 }
 .nav-menu {
     display: flex;
@@ -208,19 +215,19 @@ a:focus {
     text-align: justify;
     margin-bottom: 3rem;
 }
-
-
 .article-block-cafes {
     display: flex;
     flex-direction: row;
 }
-.articles-wrapper {
+.article-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .ligth-asymetry-block {
-    margin-top: 10rem;
     padding: 60px 30px;
-    display: block;
-    position: relative;
+    background: #F4EDE6;
 }
 .ligth-asymetry-block::before,
 .dark-asymetry-block::before {
@@ -232,39 +239,45 @@ a:focus {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #F4EDE6;
 }
 .img-holder {
     margin: 2rem;
-    height: 85vh;
 }
 .franyk1 {
-    top: -250px;
-    height: 40rem;
-    background-image: url('./img/pexels-cottonbro-studio-3205736.jpg');    
+    /* top: -250px; */
+    height: 35rem;
+    width: 100%;
+    /* background-image: url('./img/pexels-cottonbro-studio-3205736.jpg');     */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    
 }
-
-.dark-asymetry-block {
-    padding: 60px 30px;
+.city {
     display: block;
-    position: relative;
+}
+.dark-asymetry-block {
+    margin: 10rem 0;
+    padding: 60px 30px;
+    /* display: block;
+    position: relative; */
     background: #77442E;
     background: -webkit-gradient(linear, left bottom, left top, from(#77442E), to(#6c3e2a));
     background: linear-gradient(0deg, #77442E 0%, #6c3e2a 100%);
+    
 }
 
 .franyk2 {
     height: 25rem;
     width: 100%;
-    background-image: url('./img/pexels-samer-daboul-1627933.jpg');    
+    /* background-image: url('./img/pexels-samer-daboul-1627933.jpg');     */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 .button {
     display: flex;
+    width: 50%;
+    justify-content: center;
     
 }
