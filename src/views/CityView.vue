@@ -27,29 +27,33 @@
     <div class="article-block-cafes">
       <div class="article-wrapper ligth-asymetry-block">
         <div class="img-holder">
-          <img class="franyk1" src="../assets/img/pexels-cottonbro-studio-3205736.jpg" alt="caffe_1">
+          <img class="franyk1" src="../assets/img/rosteria-cavy.jpg" alt="caffe_1">
         </div>
-        <div class="description">
+        <div class="description dark-text">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptatem
             assumenda, quos dolores vitae similique ab at iure incidunt enim quaerat,
             cumque labore fuga perspiciatis saepe delectus debitis possimus? Dolor.
           </p>
         </div>
-        <span class="dark-button button">Button</span>
+        <div class="dark-button button">
+          <a href="" class="">Ростерія кави</a>
+        </div>
       </div>
       <div class="article-wrapper dark-asymetry-block">
         <div class="img-holder">
-          <img class="franyk2" src="../assets/img/pexels-samer-daboul-1627933.jpg" alt="caffe_2">
+          <img class="franyk2" src="../assets/img/fabryka.jpg" alt="caffe_2">
         </div>
-        <div class="description">
+        <div class="description ligth-text">
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quia, fugit error
             quo maxime in at consequatur quod veritatis earum incidunt, veniam laudantium
             beatae nostrum inventore ipsa possimus quidem? Qui?
           </p>
         </div>
-        <span class="main-button button">Button</span>
+        <div class="main-button button">
+          <a href="" class="light-button">Fabrica</a>
+        </div>
       </div>
     </div>
   </main>

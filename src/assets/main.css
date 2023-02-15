@@ -38,7 +38,20 @@ a:focus {
     border: none;
     outline: none;
 }
-
+/* footer style */
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+    color: #40281c;
+    margin: 1.25rem;
+}
+.footer-ancor {
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
 /* home page */
 .main-photo-wrap {
     position: relative;
@@ -165,20 +178,7 @@ a:focus {
     border: 1px solid var(--color-main-brown);
     color: inherit;
 }
-/* footer style */
-.footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    font-size: 1.2rem;
-    color: #40281c;
-    margin: 1.25rem;
-}
-.footer-ancor {
-    font-size: 1.2rem;
-    font-weight: 600;
-    letter-spacing: 2px;
-}
+
 /*City Pages styles*/
 .photo-wrap {
     position: relative;
@@ -240,44 +240,37 @@ a:focus {
     right: 0;
     bottom: 0;
 }
-.img-holder {
-    margin: 2rem;
-}
-.franyk1 {
-    /* top: -250px; */
-    height: 35rem;
-    width: 100%;
-    /* background-image: url('./img/pexels-cottonbro-studio-3205736.jpg');     */
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    
-}
-.city {
-    display: block;
-}
 .dark-asymetry-block {
     margin: 10rem 0;
     padding: 60px 30px;
-    /* display: block;
-    position: relative; */
     background: #77442E;
-    background: -webkit-gradient(linear, left bottom, left top, from(#77442E), to(#6c3e2a));
-    background: linear-gradient(0deg, #77442E 0%, #6c3e2a 100%);
-    
+    /* background: -webkit-gradient(linear, left bottom, left top, from(#77442E), to(#6c3e2a)); */
+    background: linear-gradient(180deg, #85553d 0%, #4B2F21 100%);
 }
-
+.img-holder {
+    margin: 1rem;
+    width: 75%;
+    height: 100%;
+}
+.franyk1,
 .franyk2 {
-    height: 25rem;
     width: 100%;
-    /* background-image: url('./img/pexels-samer-daboul-1627933.jpg');     */
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    height: 100%;
 }
 .button {
     display: flex;
     width: 50%;
     justify-content: center;
-    
+}
+.light-button {
+    color: var(--color-background)
+}
+.light-button:hover {
+    color: var(--color-main-brown);
+}
+.ligth-text {
+    color: var(--color-background);
+}
+.dark-text {
+    color: var(--color-main-brown);
 }
