@@ -215,16 +215,17 @@ a:focus {
 }
 .desctiption-text-wrap {
     padding: 2rem 5rem;
-    text-align: justify;
+    text-align: center;
     margin-bottom: 3rem;
 }
-.desctiption-header {
+/* .desctiption-header {
     color: var(--color-main-brown);
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 2rem;
-}
+    margin-bottom: 2rem;
+} */
 .article-block-cafes {
     display: flex;
     flex-direction: row;
@@ -252,7 +253,6 @@ a:focus {
     margin: 1rem;
     max-width: 100%;
     max-height: 100%;
-    
 }
 .franyk1 {
     width: 25rem;
