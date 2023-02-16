@@ -1,13 +1,13 @@
 <template>
   <main>
-    <div class="photo-wrap">
+    <div class="photo-city-wrap">
       <div class="city__img-holder">
         <h2 class="city__header">Івано-Франківськ</h2>
-        <div class="city__text-wrap">
+        <p class="city__text-wrap">
           (Франківськ, Станіславів, або ж як лагідне скорочення місто часто називають
           просто Франик) <br />
-          <strong>столиця Прикарпаття...</strong>
-        </div>
+          <b>столиця Прикарпаття</b>
+        </p>
         <div class="button-wrapper">
           <a href="#articles-cafes" class="main-button">Перейти до огляду</a>
         </div>
@@ -39,9 +39,8 @@
         </div>
         <div class="description dark-text">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptatem
-            assumenda, quos dolores vitae similique ab at iure incidunt enim quaerat,
-            cumque labore fuga perspiciatis saepe delectus debitis possimus? Dolor.
+            "Автентична та єдина у своєму роді кав'ярня. Тут затишок інтер'єру
+            зустрічається з романтикою каміну та красою вікових стін кінця XIX сторіччя."
           </p>
         </div>
         <div class="dark-button button">
@@ -54,9 +53,10 @@
         </div>
         <div class="description ligth-text">
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quia, fugit error
-            quo maxime in at consequatur quod veritatis earum incidunt, veniam laudantium
-            beatae nostrum inventore ipsa possimus quidem? Qui?
+            "FABBRICA – італійський ресторан з українськими продуктами. Одним з головних
+            принципів FABBRICA є використання виключно українських продуктів, переважно
+            локальних фермерських. Родзинка закладу - відкрита кухня і приготування страв
+            в унікальній печі ручної роботи."
           </p>
         </div>
         <div class="main-button button">
@@ -66,13 +66,14 @@
 
       <div class="article-wrapper reverse-dark-asymetry-block">
         <div class="img-holder">
-          <img class="franyk2" src="../assets/img/delikacia3.jpg" alt="caffe_2">
+          <img class="franyk2" src="../assets/img/delikacia3.jpg" alt="caffe_2" />
         </div>
         <div class="description ligth-text">
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quia, fugit error
-            quo maxime in at consequatur quod veritatis earum incidunt, veniam laudantium
-            beatae nostrum inventore ipsa possimus quidem? Qui?
+            "Delikacia — кафе-кондитерська в самому центрі Івано-Франківська. Бельгійський
+            та іспанський шоколад, вершкове масло, найкращі вершки з коров’ячого молока. У
+            поєднанні з перевіреними європейськими технологіями отримуємо неперевершений
+            смак навіть звичних десертів. "
           </p>
         </div>
         <div class="main-button button">
@@ -82,13 +83,17 @@
 
       <div class="article-wrapper reverse-ligth-asymetry-block">
         <div class="img-holder">
-          <img class="franyk1" src="../assets/img/tradycia1.jpg" alt="caffe_tradycia">
+          <img class="franyk1" src="../assets/img/tradycia1.jpg" alt="caffe_tradycia" />
         </div>
         <div class="description dark-text">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptatem
-            assumenda, quos dolores vitae similique ab at iure incidunt enim quaerat,
-            cumque labore fuga perspiciatis saepe delectus debitis possimus? Dolor.
+            "Унікальний заклад, який переверне Ваше сприйняття традиційної національної
+            кухні. Кожна страва, обіцяє дивувати Вас. Ми - молодий заклад, що береже і примножує українські традиції."
+            <!-- Від компанії "Етнокухня "Традиція""
+"Заклад української кухні, який переверне Ваше уявлення про національні страви. 
+Наша кухня - це місце приготування старих рецептів по-новому, які точно будуть Вам до смаку.
+ У кожній страві - довершений смак, неординарність та любов. До зустрічі у етнокухні "Традиція"!" 
+ А інтер‘єр пропонує Вам затишок, адже тут продумано все до дрібниць.-->
           </p>
         </div>
         <div class="dark-button button">

@@ -148,7 +148,6 @@ a:focus {
     background-size: cover;
     background-position: center;
 }
-
 .ligth-box_wrapper {
     background-color: var(--color-background);
     color: var(--color-main-brown);
@@ -180,7 +179,7 @@ a:focus {
 }
 
 /*City Pages styles*/
-.photo-wrap {
+.photo-city-wrap {
     position: relative;
     height: 40rem;
     width: 100%;
@@ -210,6 +209,7 @@ a:focus {
     margin: 3vw ;
     text-align: center;
 }
+
 .desctiption-city-block{
     margin: 2rem;
 }
@@ -218,14 +218,7 @@ a:focus {
     text-align: center;
     margin-bottom: 3rem;
 }
-/* .desctiption-header {
-    color: var(--color-main-brown);
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 2rem;
-    margin-bottom: 2rem;
-} */
+
 .article-block-cafes {
     display: flex;
     flex-direction: row;

@@ -9,24 +9,27 @@
     <div class="secoundary-block-element">
       <h2 class="secoundary-header">Lorem ipsum dolor, sit amet consectetur</h2>
       <p class="secoundary-text-wrap">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat,
+        Ви любите каву? Я, до прикладу, просто обожнюю... ну й історично так
+        склалось що найчастіше я смакую її саме у Києві, Черкасах та
+        Франківську. Тож на цьому сайті зібрано ТОП мої улюблених кав'ярень і
+        просто крутих та затишних місць, де можна посидіти з горнятком кави,
+        насолодитись видом на місто або прийти працювати до надійного Wi-Fi
+        коли вдома "планово" вимкнули світло...
+        Для кожної локації планую залишити власні поради та рекомендації, разом з контактною інформацією закладу,
+         його розташуванням та рейтингом від сервісу GoogleMaps. 
+        <br> Lets get started!
+      </p>
+    </div>
+    <div class="brown-box_wrapper">
+      <div class="box-text-block">
+        <p class="description ligth-text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat,
         culpa. Assumenda deleniti maiores eum nesciunt itaque voluptatum
         corrupti exercitationem adipisci cupiditate nobis inventore, libero
         incidunt! Eum nam quasi eligendi possimus. Aut quasi, ratione
         perferendis unde porro nisi recusandae minima numquam debitis veritatis
         neque quos placeat. Mollitia itaque explicabo similique tempore, culpa
         sint quae temporibus! Excepturi veniam ipsum repellat labore voluptate.
-      </p>
-    </div>
-    <div class="brown-box_wrapper">
-      <div class="box-text-block">
-        <p class="description ligth-text">
-          Ви любите каву? Я, до прикладу, просто обожнюю... ну й історично так
-          склалось що найчастіше я смакую її саме у Києві, Черкасах та
-          Франківську. Тож на цьому сайті зібрано ТОП мої улюблених кав'ярень і
-          просто крутих та затишних місць, де можна посидіти з горнятком кави,
-          насолодитись видом на місто або прийти працювати до надійного Wi-Fi
-          коли вдома "планово" вимкнули світло...
         </p>
         <div class="button-wrapper">
           <a href="" class="main-button">Перейти до огляду</a>
