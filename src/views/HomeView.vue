@@ -32,7 +32,7 @@
         sint quae temporibus! Excepturi veniam ipsum repellat labore voluptate.
         </p>
         <div class="button-wrapper">
-          <a href="" class="main-button">Перейти до огляду</a>
+          <a href="" class="main-button button">Перейти до огляду</a>
         </div>
       </div>
       <div class="box-img-block">
@@ -53,7 +53,7 @@
           deleniti eum possimus. Recusandae minus
         </p>
         <div class="button-wrapper">
-          <a href="" class="dark-button">Перейти до огляду</a>
+          <a href="" class="dark-button button">Перейти до огляду</a>
         </div>
       </div>
     </div>

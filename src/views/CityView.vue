@@ -9,7 +9,7 @@
           <b>столиця Прикарпаття</b>
         </p>
         <div class="button-wrapper">
-          <a href="#articles-cafes" class="main-button">Перейти до огляду</a>
+          <a href="#articles-cafes" class="main-button button">Перейти до огляду</a>
         </div>
       </div>
     </div>
@@ -33,34 +33,34 @@
       <!-- <h2 class="desctiption-header">Локації Івано-Франківська</h2> -->
     </div>
     <div class="article-block-cafes" id="articles-cafes">
-      <div class="article-wrapper ligth-asymetry-block">
-        <div class="img-holder">
-          <img class="franyk1" src="../assets/img/rosteria-cavy.jpg" alt="caffe_1" />
-        </div>
-        <div class="description dark-text">
-          <p>
+
+      <div class="article-wrapper ligth-block">
+        <a href="" class="article__link-holder rosteria">
+          <h3 class="article-name">Ростерія кави
+          </h3>
+        </a>
+        <div class="article__dark-text">
+          <p class="description">
             "Автентична та єдина у своєму роді кав'ярня. Тут затишок інтер'єру
             зустрічається з романтикою каміну та красою вікових стін кінця XIX сторіччя."
           </p>
-        </div>
-        <div class="dark-button button">
-          <a href="" class="">Ростерія кави</a>
-        </div>
+          <a class="dark-button button">Відвідати заклад</a>
+        </div>        
       </div>
-      <div class="article-wrapper dark-asymetry-block">
-        <div class="img-holder">
-          <img class="franyk2" src="../assets/img/fabryka.jpg" alt="caffe_2" />
-        </div>
-        <div class="description ligth-text">
-          <p>
+
+      <div class="article-wrapper dark-block">
+        <a href="" class="article__link-holder fabrica">
+          <h3 class="article-name">Fabrica
+          </h3>
+        </a>
+        <div class="article__ligth-text">
+          <p class="description">
             "FABBRICA – італійський ресторан з українськими продуктами. Одним з головних
             принципів FABBRICA є використання виключно українських продуктів, переважно
             локальних фермерських. Родзинка закладу - відкрита кухня і приготування страв
             в унікальній печі ручної роботи."
           </p>
-        </div>
-        <div class="main-button button">
-          <a href="" class="light-button">Fabrica</a>
+          <a class="light-button button">Відвідати заклад</a>
         </div>
       </div>
 
@@ -83,7 +83,7 @@
 
       <div class="article-wrapper reverse-ligth-asymetry-block">
         <div class="img-holder">
-          <img class="franyk1" src="../assets/img/tradycia1.jpg" alt="caffe_tradycia" />
+          <img class="franyk1" src="../assets/img/tradycia2.jpg" alt="caffe_tradycia" />
         </div>
         <div class="description dark-text">
           <p>
