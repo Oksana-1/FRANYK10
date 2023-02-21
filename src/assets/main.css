@@ -24,6 +24,7 @@
     text-transform: uppercase;
 }
 a {
+    cursor: pointer;
     text-decoration: none;
     letter-spacing: 2px;
     font-size: 1.2rem;
@@ -124,8 +125,7 @@ a:focus {
     text-align: center;
 }
 .button {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     text-transform: uppercase;
     padding: 15px 30px;
     letter-spacing: 5px;
@@ -233,11 +233,11 @@ a:focus {
 }
 .ligth-block {
     background: #F4EDE6;
-    background: linear-gradient(180deg, white 0%, #F4EDE6  100%);
+    background: linear-gradient(100deg, white 0%, #ddd1c5  100%);
 }
 .dark-block {
     background: #77442E;
-    background: linear-gradient(180deg, #805743 0%, #4B2F21 100%);
+    background: linear-gradient(225deg, #805743 0%, #4B2F21 100%);
 }
 .img-holder {
     margin: 1rem;
@@ -257,15 +257,22 @@ a:focus {
 .fabrica {
     background-image: url(../assets/img/fabryka.jpg);
 }
+.delicacia {
+    background-image: url(../assets/img/delikacia3.jpg);
+}
+.tradycia {
+    background-image: url(../assets/img/tradycia2.jpg);
+}
 .article-name {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
     height: 30rem;
     width: 100%;
     color: var(--color-background);
     text-transform: uppercase;
+    text-align: center;
     font-weight: bold;
     font-size: 2.5rem;
 }
@@ -297,12 +304,12 @@ a:focus {
     align-items: center;
 }
 
-.reverse-ligth-asymetry-block {
+.reverse-ligth-block {
     padding: 3.75rem 1.875rem;
     background: #F4EDE6;
-    background: linear-gradient(180deg,#F4EDE6 0%, white 100%);
+    background: linear-gradient(180deg,#ddd1c5 0%, white 100%);
 }
-.reverse-dark-asymetry-block {
+.reverse-dark-block {
     padding: 3.75rem 1.875rem;
     background: #77442E;
     background: linear-gradient(180deg, #4B2F21 0%, #805743 100%);

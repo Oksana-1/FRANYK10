@@ -33,71 +33,65 @@
       <!-- <h2 class="desctiption-header">Локації Івано-Франківська</h2> -->
     </div>
     <div class="article-block-cafes" id="articles-cafes">
-
       <div class="article-wrapper ligth-block">
         <a href="" class="article__link-holder rosteria">
-          <h3 class="article-name">Ростерія кави
-          </h3>
+          <h3 class="article-name">Ростерія кави</h3>
         </a>
         <div class="article__dark-text">
           <p class="description">
-            "Автентична та єдина у своєму роді кав'ярня. Тут затишок інтер'єру
-            зустрічається з романтикою каміну та красою вікових стін кінця XIX сторіччя."
+            Автентична та єдина у своєму роді кав'ярня. Тут затишок інтер'єру
+            зустрічається з романтикою каміну та красою вікових стін кінця XIX сторіччя.
           </p>
           <a class="dark-button button">Відвідати заклад</a>
-        </div>        
+        </div>
       </div>
 
       <div class="article-wrapper dark-block">
         <a href="" class="article__link-holder fabrica">
-          <h3 class="article-name">Fabrica
-          </h3>
+          <h3 class="article-name">Fabrica</h3>
         </a>
         <div class="article__ligth-text">
           <p class="description">
-            "FABBRICA – італійський ресторан з українськими продуктами. Одним з головних
-            принципів FABBRICA є використання виключно українських продуктів, переважно
-            локальних фермерських. Родзинка закладу - відкрита кухня і приготування страв
-            в унікальній печі ручної роботи."
+            FABBRICA – італійський ресторан з українськими продуктами. 
+            Родзинка закладу - відкрита кухня і приготування страв в унікальній печі ручної роботи.
           </p>
           <a class="light-button button">Відвідати заклад</a>
         </div>
       </div>
 
-      <div class="article-wrapper reverse-dark-asymetry-block">
-        <div class="img-holder">
-          <img class="franyk2" src="../assets/img/delikacia3.jpg" alt="caffe_2" />
-        </div>
-        <div class="description ligth-text">
-          <p>
-            "Delikacia — кафе-кондитерська в самому центрі Івано-Франківська. Бельгійський
+      <div class="article-wrapper reverse-dark-block">
+        <a href="" class="article__link-holder delicacia">
+          <h3 class="article-name">Delikacia</h3>
+        </a>
+        <div class="article__ligth-text">
+          <p class="description">
+            Delikacia — кафе-кондитерська в самому центрі Івано-Франківська. Бельгійський
             та іспанський шоколад, вершкове масло, найкращі вершки з коров’ячого молока. У
             поєднанні з перевіреними європейськими технологіями отримуємо неперевершений
-            смак навіть звичних десертів. "
+            смак навіть звичних десертів.
           </p>
-        </div>
-        <div class="main-button button">
-          <a href="" class="light-button">Delikacia</a>
+          <a class="light-button button">Відвідати заклад</a>
         </div>
       </div>
 
-      <div class="article-wrapper reverse-ligth-asymetry-block">
-        <div class="img-holder">
-          <img class="franyk1" src="../assets/img/tradycia2.jpg" alt="caffe_tradycia" />
-        </div>
-        <div class="description dark-text">
-          <p>
-            "Унікальний заклад, який переверне Ваше сприйняття традиційної національної
-            кухні. Кожна страва, обіцяє дивувати Вас. Ми - молодий заклад, що береже і примножує українські традиції."
+      <div class="article-wrapper reverse-ligth-block">
+        <a href="" class="article__link-holder tradycia">
+          <h3 class="article-name">Традиція</h3>
+        </a>
+        <div class="article__dark-text">
+          <p class="description">
+            Заклад української кухні, який переверне Ваше уявлення про національні страви. 
+            Наша кухня - це місце приготування старих рецептів по-новому, які точно будуть Вам до смаку.
+            У кожній страві - довершений смак, неординарність та любов.
             <!-- Від компанії "Етнокухня "Традиція""
-"Заклад української кухні, який переверне Ваше уявлення про національні страви. 
-Наша кухня - це місце приготування старих рецептів по-новому, які точно будуть Вам до смаку.
- У кожній страві - довершений смак, неординарність та любов. До зустрічі у етнокухні "Традиція"!" 
- А інтер‘єр пропонує Вам затишок, адже тут продумано все до дрібниць.-->
+            "Унікальний заклад, який переверне Ваше сприйняття традиційної національної
+            кухні. Кожна страва, обіцяє дивувати Вас. Ми - молодий заклад, що береже і
+            примножує українські традиції.Заклад української кухні, який переверне Ваше уявлення про національні страви. 
+            Наша кухня - це місце приготування старих рецептів по-новому, які точно будуть Вам до смаку.
+            У кожній страві - довершений смак, неординарність та любов. До зустрічі у етнокухні "Традиція"!" 
+            А інтер‘єр пропонує Вам затишок, адже тут продумано все до дрібниць.-->
           </p>
-        </div>
-        <div class="dark-button button">
-          <a href="" class="text-button">Етнокухня "Традиція"</a>
+          <a class="dark-button button">Відвідати заклад</a>
         </div>
       </div>
     </div>
