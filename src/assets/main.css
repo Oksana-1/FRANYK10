@@ -125,20 +125,21 @@ a:focus {
     text-align: center;
 }
 .button {
+    display: flex;
+    justify-content: center;
     text-align: center;
     text-transform: uppercase;
     padding: 15px 30px;
+    font-size: 1.5rem;
     letter-spacing: 5px;
     transition: 0.2s ease-in-out;
-}
-.main-button {
     color: var(--color-background);
     border: 1px solid var(--color-background);
 }
-.main-button:hover {
-    background-color: rgba(255,255,255,0.2);
+.button:hover {
+    background-color: rgba(255,255,255,0.3);
     border: 1px solid var(--color-background);
-    color: inherit;
+    color: var(--color-main-brown);
 }
 .box-img-block {
     width: 50%;
@@ -166,15 +167,7 @@ a:focus {
     background-size: cover;
     background-position:  30% 70% ;
 }
-.dark-button {
-    color: var(--color-main-brown);
-    border: 1px solid var(--color-main-brown);
-}
-.dark-button:hover {
-    background-color: rgba(75, 38, 14, 0.2);
-    border: 1px solid var(--color-main-brown);
-    color: inherit;
-}
+
 
 /*City Pages styles*/
 .photo-city-wrap {
@@ -207,22 +200,18 @@ a:focus {
     margin: 3vw ;
     text-align: center;
 }
-
-.desctiption-city-block{
-    margin: 2rem;
-}
 .desctiption-text-wrap {
     padding: 2rem 5rem;
     text-align: center;
-    margin-bottom: 3rem;
+    margin: 2rem;
 }
-
 .article-block-cafes {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin: 2rem 0;
 }
+
 .article-wrapper {
     width: 50%;
     display: flex;
@@ -231,14 +220,23 @@ a:focus {
     justify-content: space-between;
     padding: 3.75rem 2.25rem;
 }
-.ligth-block {
+.article-wrapper:nth-child(4n-3) {
     background: #F4EDE6;
     background: linear-gradient(100deg, white 0%, #ddd1c5  100%);
 }
-.dark-block {
+.article-wrapper:nth-child(4n-2) {
     background: #77442E;
     background: linear-gradient(225deg, #805743 0%, #4B2F21 100%);
 }
+.article-wrapper:nth-child(4n-1) {
+    background: #77442E;
+    background: linear-gradient(180deg, #4B2F21 0%, #805743 100%);
+}
+.article-wrapper:nth-child(4n) {
+    background: #F4EDE6;
+    background: linear-gradient(180deg,#ddd1c5 0%, white 100%);
+}
+
 .img-holder {
     margin: 1rem;
     max-width: 100%;
@@ -257,12 +255,13 @@ a:focus {
 .fabrica {
     background-image: url(../assets/img/fabryka.jpg);
 }
-.delicacia {
+.delikacia {
     background-image: url(../assets/img/delikacia3.jpg);
 }
 .tradycia {
     background-image: url(../assets/img/tradycia2.jpg);
 }
+
 .article-name {
     display: flex;
     justify-content: center;
@@ -276,41 +275,28 @@ a:focus {
     font-weight: bold;
     font-size: 2.5rem;
 }
-.article__dark-text {
+.article-text {
     color: var(--color-main-brown);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
-
-.light-button {
-    color: var(--color-background);
-    border: 1px solid var(--color-background);
-}
-.light-button:hover {
-    color: var(--color-main-brown);
-    background-color: rgba(255,255,255,0.2);
-    border: 1px solid var(--color-background);
-    color: inherit;
-}
-.text-button {
+.article-description {
+    margin: 2rem 0;
     text-align: center;
-}
-.article__ligth-text {
     color: var(--color-background);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+}
+.article-description:nth-child(3n+1) {
+    color: var(--color-main-brown);
+}
+/* article buttons */
+.button:nth-child(3n+1) {
+    color: var(--color-main-brown);
+    border: 1px solid var(--color-main-brown);
 }
 
-.reverse-ligth-block {
-    padding: 3.75rem 1.875rem;
-    background: #F4EDE6;
-    background: linear-gradient(180deg,#ddd1c5 0%, white 100%);
-}
-.reverse-dark-block {
-    padding: 3.75rem 1.875rem;
-    background: #77442E;
-    background: linear-gradient(180deg, #4B2F21 0%, #805743 100%);
+.button:nth-child(3n+1):hover {
+    background-color: rgba(75, 38, 14, 0.2);
+    border: 1px solid var(--color-main-brown);
+    color: inherit;
 }

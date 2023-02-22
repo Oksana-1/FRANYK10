@@ -13,26 +13,28 @@
         склалось що найчастіше я смакую її саме у Києві, Черкасах та
         Франківську. Тож на цьому сайті зібрано ТОП мої улюблених кав'ярень і
         просто крутих та затишних місць, де можна посидіти з горнятком кави,
-        насолодитись видом на місто або прийти працювати до надійного Wi-Fi
-        коли вдома "планово" вимкнули світло...
-        Для кожної локації планую залишити власні поради та рекомендації, разом з контактною інформацією закладу,
-         його розташуванням та рейтингом від сервісу GoogleMaps. 
-        <br> Lets get started!
+        насолодитись видом на місто або прийти працювати до надійного Wi-Fi коли
+        вдома "планово" вимкнули світло... Для кожної локації планую залишити
+        власні поради та рекомендації, разом з контактною інформацією закладу,
+        його розташуванням та рейтингом від сервісу GoogleMaps.
+        <br />
+        Lets get started!
       </p>
     </div>
     <div class="brown-box_wrapper">
       <div class="box-text-block">
         <p class="description ligth-text">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat,
-        culpa. Assumenda deleniti maiores eum nesciunt itaque voluptatum
-        corrupti exercitationem adipisci cupiditate nobis inventore, libero
-        incidunt! Eum nam quasi eligendi possimus. Aut quasi, ratione
-        perferendis unde porro nisi recusandae minima numquam debitis veritatis
-        neque quos placeat. Mollitia itaque explicabo similique tempore, culpa
-        sint quae temporibus! Excepturi veniam ipsum repellat labore voluptate.
+          culpa. Assumenda deleniti maiores eum nesciunt itaque voluptatum
+          corrupti exercitationem adipisci cupiditate nobis inventore, libero
+          incidunt! Eum nam quasi eligendi possimus. Aut quasi, ratione
+          perferendis unde porro nisi recusandae minima numquam debitis
+          veritatis neque quos placeat. Mollitia itaque explicabo similique
+          tempore, culpa sint quae temporibus! Excepturi veniam ipsum repellat
+          labore voluptate.
         </p>
         <div class="button-wrapper">
-          <a href="" class="main-button button">Перейти до огляду</a>
+          <a href="" class="button">Перейти до огляду</a>
         </div>
       </div>
       <div class="box-img-block">
