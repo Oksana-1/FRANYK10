@@ -8,9 +8,7 @@
           <b>столиця Прикарпаття</b>
         </p>
         <div class="button-wrapper">
-          <a href="#articles-cafes" class="button"
-            >Перейти до огляду</a
-          >
+          <a href="#articles-cafes" class="button">Перейти до огляду</a>
         </div>
       </div>
     </div>

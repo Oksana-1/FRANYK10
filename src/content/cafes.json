@@ -30,5 +30,21 @@
         "imageUrlClass": "tradycia",
         "cafeRoute": "/tradycia",
         "city": "Franyk"
+    },
+    {
+        "id": 5,
+        "title": "Halva",
+        "text": "...кафе-кондитерська в самому центрі Івано-Франківська. Бельгійський та іспанський шоколад, вершкове масло, найкращі вершки з коров’ячого молока. У поєднанні з перевіреними європейськими технологіями отримуємо неперевершений смак навіть звичних десертів.",
+        "imageUrlClass": "halva",
+        "cafeRoute": "/delikacia",
+        "city": "Kyiv"
+    },
+    {
+        "id": 6,
+        "title": "Idealist",
+        "text": "lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+        "imageUrlClass": "idealist",
+        "cafeRoute": "/idealist",
+        "city": "Kyiv"
     }
 ]

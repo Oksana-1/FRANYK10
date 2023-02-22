@@ -9,7 +9,7 @@
         Made by
         <a
           href="https://github.com/LiliaBilous"
-          class="footer-ancor"
+          class="footer-anchor"
           target="_blank"
           >Lilia Bilous</a
         >

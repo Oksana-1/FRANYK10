@@ -48,7 +48,7 @@ a:focus {
     color: #40281c;
     margin: 1.25rem;
 }
-.footer-ancor {
+.footer-anchor {
     font-size: 1.2rem;
     font-weight: 600;
     letter-spacing: 2px;
@@ -58,7 +58,7 @@ a:focus {
     position: relative;
     height: 45rem;
     width: 100%;
-    background-image: url('./img/pexels-afta-putta-gunawan-683039.jpg');    
+    background-image: url('./img/HomePage/main-photo.jpg');    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -85,7 +85,7 @@ a:focus {
     color: var(--color-background);
     font-style: italic;
 }
-.secoundary-block-element{
+.introduction-block {
     height: 35rem;
     background-color: var(--color-white);
     color: var(--color-text);
@@ -94,15 +94,15 @@ a:focus {
     text-align: center;
     margin: 2vw;
 }
-.secoundary-header {
+.introduction-header {
     margin: 5vw 0;
     font-weight: 700;
     text-align: center;
 }
-.secoundary-text-wrap {
+.introduction-text-wrap {
     text-align: center;
 }
-.brown-box_wrapper {
+.city_wrapper {
     color: var(--color-white);
     background-color: #77442E;
     background: linear-gradient(180deg, #805743 0%,  #4B2F21 100%);
@@ -112,13 +112,24 @@ a:focus {
     justify-content: center;
     align-items: center;
 }
-.box-text-block {
+.city-text-block,
+.cafes-text-block {
     width: 50%;
     padding: 3.125rem;
 }
-.description {
+.city-description {
     text-align: justify;
     margin: 2vw 0;
+}
+.photo-img-block {
+    width: 50%;
+    height: 100%;
+}
+.coffee-img{
+    background-image: url('./img/HomePage/cities-link.jpg') ;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
 }
 .button-wrapper {
     margin: 1.5rem 2rem;
@@ -130,7 +141,6 @@ a:focus {
     text-align: center;
     text-transform: uppercase;
     padding: 15px 30px;
-    font-size: 1.5rem;
     letter-spacing: 5px;
     transition: 0.2s ease-in-out;
     color: var(--color-background);
@@ -141,17 +151,17 @@ a:focus {
     border: 1px solid var(--color-background);
     color: var(--color-main-brown);
 }
-.box-img-block {
-    width: 50%;
-    height: 100%;
+.dark-button {
+    color: var(--color-main-brown);
+    border: 1px solid var(--color-main-brown);
 }
-.coffee-img{
-    background-image: url('./img/main-coffee-photo.jpg') ;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
+
+.dark-button:hover {
+    background-color: rgba(75, 38, 14, 0.35);
+    border: 1px solid var(--color-main-brown);
 }
-.ligth-box_wrapper {
+
+.cafes_wrapper {
     background-color: var(--color-background);
     background: linear-gradient(255deg,#efd6be 0%, white 100%);
     color: var(--color-main-brown);
@@ -161,8 +171,8 @@ a:focus {
     justify-content: center;
     align-items: center;
 }
-.aditional-coffee-img {
-    background-image: url('./img/additional-photo.jpg') ;
+.cafes-img {
+    background-image: url('./img/HomePage/cafes-link.jpg') ;
     height: 100%;
     background-size: cover;
     background-position:  30% 70% ;
@@ -174,7 +184,7 @@ a:focus {
     position: relative;
     height: 40rem;
     width: 100%;
-    background-image: url('./img/ivano-frankivsk.jpg');    
+    background-image: url('./img/Franyk/ivano-frankivsk.jpg');    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 70% 30%;
@@ -250,16 +260,16 @@ a:focus {
     background-position: 90% 10%;
 }
 .rosteria {
-    background-image: url(../assets/img/01.jpg);
+    background-image: url(../assets/img/Franyk/01.jpg);
 }
 .fabrica {
-    background-image: url(../assets/img/fabryka.jpg);
+    background-image: url(../assets/img/Franyk/fabryka.jpg);
 }
 .delikacia {
-    background-image: url(../assets/img/delikacia3.jpg);
+    background-image: url(../assets/img/Franyk/delikacia3.jpg);
 }
 .tradycia {
-    background-image: url(../assets/img/tradycia2.jpg);
+    background-image: url(../assets/img/Franyk/tradycia2.jpg);
 }
 
 .article-name {
@@ -284,19 +294,28 @@ a:focus {
 .article-description {
     margin: 2rem 0;
     text-align: center;
-    color: var(--color-background);
+    color: var(--color-white);
 }
-.article-description:nth-child(3n+1) {
+.article-wrapper:nth-child(4n) .article-description,
+.article-wrapper:nth-child(4n-3) .article-description {
     color: var(--color-main-brown);
 }
 /* article buttons */
-.button:nth-child(3n+1) {
+.article-wrapper:nth-child(4n-3) .button,
+.article-wrapper:nth-child(4n) .button {
     color: var(--color-main-brown);
     border: 1px solid var(--color-main-brown);
 }
-
-.button:nth-child(3n+1):hover {
-    background-color: rgba(75, 38, 14, 0.2);
+.dark-button:hover,
+.article-wrapper:nth-child(4n-3) .button:hover ,
+.article-wrapper:nth-child(4n) .button:hover {
+    background-color: rgba(75, 38, 14, 0.35);
     border: 1px solid var(--color-main-brown);
-    color: inherit;
+    color: var(--color-white);
+}
+.halva {
+    background-image: url(../assets/img/cap.jpg);
+}
+.idealist {
+    background-image: url(../assets/img/cap-coffee.jpg);
 }
