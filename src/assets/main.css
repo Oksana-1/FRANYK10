@@ -183,11 +183,16 @@ a:focus {
 .photo-city-wrap {
     position: relative;
     height: 40rem;
-    width: 100%;
-    background-image: url('./img/Franyk/ivano-frankivsk.jpg');    
+    width: 100%;   
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 70% 30%;
+}
+.photo-city-wrap.franyk {
+    background-image: url('./img/Franyk/ivano-frankivsk.jpg'); 
+}
+.photo-city-wrap.kyiv {
+    background-image: url('./img/Kyiv/kyiv-main-photo.jpg');
 }
 .city__img-holder {
     background-color: rgba(0, 0, 0, 0.6);
