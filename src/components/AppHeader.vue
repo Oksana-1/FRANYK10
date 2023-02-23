@@ -21,6 +21,9 @@ import { RouterLink } from "vue-router";
           <li class="nav-menu-item">
             <RouterLink to="/сherkasy">Черкаси</RouterLink>
           </li>
+          <li class="nav-menu-item">
+            <RouterLink to="/odesa">Одеса</RouterLink>
+          </li>
         </ul>
       </nav>
     </div>
