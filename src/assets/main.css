@@ -201,7 +201,7 @@ a:focus {
     background-position: 70% 30%;
 }
 .photo-city-wrap.cherkasy {
-    background-image: url('./img/cherkasy/foto-svitlana-kravchenko.12.jpeg');
+    background-image: url('./img/cherkasy/damba.jpeg');
     background-position: top;
 }
 .city__img-holder {
@@ -275,16 +275,16 @@ a:focus {
     background-position: 90% 10%;
 }
 .rosteria {
-    background-image: url(../assets/img/Franyk/01.jpg);
+    background-image: url('../assets/img/Franyk/rosteria/main-rosteria-cavy.jpg');
 }
 .fabrica {
-    background-image: url(../assets/img/Franyk/fabryka.jpg);
+    background-image: url('../assets/img/Franyk/fabrica/fabryka.jpg');
 }
 .delikacia {
-    background-image: url(../assets/img/Franyk/delikacia3.jpg);
+    background-image: url('../assets/img/Franyk/Delikacia/delikacia.jpg');
 }
 .tradycia {
-    background-image: url(../assets/img/Franyk/tradycia2.jpg);
+    background-image: url('../assets/img/Franyk/tradycia/main-tradycia.jpg');
 }
 
 .article-name {
@@ -339,4 +339,7 @@ a:focus {
 }
 .endorfin {
     background-image: url('./img/cherkasy/endorfin/pexels-maria-bortolotto-6382929.jpg');
+}
+.shocolad {
+    background-image: url('./img/cherkasy/shocoladu/lvivska-shocoladu.jfif');
 }

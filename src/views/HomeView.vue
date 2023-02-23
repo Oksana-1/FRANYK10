@@ -38,7 +38,7 @@
           що я скрізь буду шукати каву і залишати тут локації що завоювали
         </p>
         <div class="button-wrapper">
-          <a href="" class="button">Перейти до огляду міст</a>
+          <a href="#" class="button">Перейти до огляду міст</a>
         </div>
       </div>
       <div class="photo-img-block">
@@ -59,7 +59,7 @@
           deleniti eum possimus. Recusandae minus
         </p>
         <div class="button-wrapper">
-          <a href="" class="dark-button button">Перейти до огляду кавярень</a>
+          <a href="#" class="dark-button button">Перейти до огляду кавярень</a>
         </div>
       </div>
     </div>
