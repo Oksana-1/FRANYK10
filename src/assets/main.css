@@ -299,6 +299,7 @@ a:focus {
     text-align: center;
     font-weight: bold;
     font-size: 2.5rem;
+    line-height: 2.5rem;
 }
 .article-text {
     color: var(--color-main-brown);
