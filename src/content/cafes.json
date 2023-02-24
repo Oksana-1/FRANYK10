@@ -33,22 +33,6 @@
     },
     {
         "id": 5,
-        "title": "Halva",
-        "text": "...кафе-кондитерська в самому центрі Івано-Франківська. Бельгійський та іспанський шоколад, вершкове масло, найкращі вершки з коров’ячого молока. У поєднанні з перевіреними європейськими технологіями отримуємо неперевершений смак навіть звичних десертів.",
-        "imageUrlClass": "halva",
-        "cafeRoute": "/halva",
-        "city": "Kyiv"
-    },
-    {
-        "id": 6,
-        "title": "Idealist",
-        "text": "lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
-        "imageUrlClass": "idealist",
-        "cafeRoute": "/idealist",
-        "city": "Kyiv"
-    },
-    {
-        "id": 7,
         "title": "Фабрика кави Ростерія",
         "text": "Мережа суто черкаських кавярень, але дуже рекомендую відвідати їх кавярню саме на набережній з розкішним видом на Дніпро. Окрім того, в них неймовірна кава власного обсмаження.",
         "imageUrlClass": "fabrykaRosteria",
@@ -56,7 +40,7 @@
         "city": "Cherkasy"
     },
     {
-        "id": 8,
+        "id": 6,
         "title": "Ендорфін",
         "text": "Сучасний і стильний заклад, куди приємно прийти попрацювати або ж просто випити горнятко кави. Дуже рекомендую меренговий рулет - він закохає вас в себе з першого шматочка",
         "imageUrlClass": "endorfin",
@@ -64,11 +48,75 @@
         "city": "Cherkasy"
     },
     {
-        "id": 9,
+        "id": 7,
         "title": "Львівська майстерня шоколаду",
         "text": "Поєднання смачної кави та шоколаду ... для мене це просто кохання з першого погляду. Звісно, що мережа розвинута і в багатьох містах України є ці майстерені, але саме ця в Черкасах найулюбленіша...",
         "imageUrlClass": "shocolad",
         "cafeRoute": "/shocolad",
         "city": "Cherkasy"
-    }
+    },
+    {
+        "id": 8,
+        "title": "Idealist",
+        "text": "lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+        "imageUrlClass": "idealist",
+        "cafeRoute": "/idealist",
+        "city": "Kyiv"
+    },
+    {
+        "id": 9,
+        "title": "Italist Pizza Pasta Bar",
+        "text": "Поєднання смачної кави та шоколаду ... для мене це просто кохання з першого погляду. Звісно, що мережа розвинута і в багатьох містах України є ці майстерені, але саме ця в Черкасах найулюбленіша...",
+        "imageUrlClass": "italist",
+        "cafeRoute": "/italist",
+        "city": "Kyiv"
+    },
+    {
+        "id": 10,
+        "title": "Кава на двох",
+        "text": "Поєднання смачної кави та шоколаду ... для мене це просто кохання з першого погляду. Звісно, що мережа розвинута і в багатьох містах України є ці майстерені, але саме ця в Черкасах найулюбленіша...",
+        "imageUrlClass": "kavaNAdvoh",
+        "cafeRoute": "/kavaNAdvoh",
+        "city": "Kyiv"
+    },
+    {
+        "id": 11,
+        "title": "Османтус",
+        "text": "Поєднання смачної кави та шоколаду ... для мене це просто кохання з першого погляду. Звісно, що мережа розвинута і в багатьох містах України є ці майстерені, але саме ця в Черкасах найулюбленіша...",
+        "imageUrlClass": "osmantus",
+        "cafeRoute": "/osmantus",
+        "city": "Kyiv"
+    },
+    {
+        "id": 12,
+        "title": "Завертайло",
+        "text": "Поєднання смачної кави та шоколаду ... для мене це просто кохання з першого погляду. Звісно, що мережа розвинута і в багатьох містах України є ці майстерені, але саме ця в Черкасах найулюбленіша...",
+        "imageUrlClass": "zavertaylo",
+        "cafeRoute": "/zavertaylo",
+        "city": "Kyiv"
+    },
+    {
+        "id": 13,
+        "title": "Kyiv Food Market",
+        "text": "lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+        "imageUrlClass": "foodMarket",
+        "cafeRoute": "/foodMarket",
+        "city": "Kyiv"
+    },
+    {
+        "id": 14,
+        "title": "Halva",
+        "text": "...кафе-кондитерська в самому центрі Івано-Франківська. Бельгійський та іспанський шоколад, вершкове масло, найкращі вершки з коров’ячого молока. У поєднанні з перевіреними європейськими технологіями отримуємо неперевершений смак навіть звичних десертів.",
+        "imageUrlClass": "halva",
+        "cafeRoute": "/halva",
+        "city": "Kyiv"
+    },
+    {
+        "id": 15,
+        "title": "Ярослава",
+        "text": "Поєднання смачної кави та шоколаду ... для мене це просто кохання з першого погляду. Звісно, що мережа розвинута і в багатьох містах України є ці майстерені, але саме ця в Черкасах найулюбленіша...",
+        "imageUrlClass": "yaroslava",
+        "cafeRoute": "/yaroslava",
+        "city": "Kyiv"
+    }    
 ]

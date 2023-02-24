@@ -329,12 +329,7 @@ a:focus {
     border: 1px solid var(--color-main-brown);
     color: var(--color-white);
 }
-.halva {
-    background-image: url(../assets/img/cap.jpg);
-}
-.idealist {
-    background-image: url(../assets/img/cap-coffee.jpg);
-}
+
 .fabrykaRosteria {
     background-image: url('../assets/img/cherkasy/fabryka/fabrykaRosteria.jpg');
 }
@@ -343,4 +338,31 @@ a:focus {
 }
 .shocolad {
     background-image: url('./img/cherkasy/shocoladu/lvivska-shocoladu.jfif');
+}
+.zavertaylo {
+    background-image: url('./img/Kyiv/zavertailo/cup-coffee4.jpg');
+    background-position: 60% 40%;
+}
+.yaroslava {
+background-image: url('./img/Kyiv/yaroslava/beans4.jpg');
+}
+.kavaNAdvoh {
+    background-image: url('./img/Kyiv/kava-na-dvoh/coffee-mashine5.jpg');
+    background-position: 30% 70%;
+}
+.osmantus {
+    background-image: url('./img/Kyiv/osmantus/work-place-coffee2.jpg');
+}
+.italist {
+    background-image: url('./img/Kyiv/italist/cafe.jpg');
+}
+.halva {
+    background-image: url(../assets/img/Kyiv/halva/cup-coffee3.jpg);
+}
+.idealist {
+    background-image: url(../assets/img/Kyiv/pishohidnyi.jpg);
+}
+.foodMarket {
+    background-image: url('./img/Kyiv/food-market/cup-coffee11.jpg');
+    background-position: 30% 70%;
 }
