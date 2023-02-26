@@ -51,12 +51,8 @@
       </div>
       <div class="cafes-text-block">
         <p class="cafes-description">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci,
-          similique voluptatem neque nemo deleniti temporibus? Enim quas alias,
-          sapiente perferendis cumque iste obcaecati, neque adipisci maiores
-          natus optio, facilis ut! Ipsam nemo veniam quisquam alias. Vitae atque
-          quae, quam qui ipsam voluptates maiores. Nesciunt magnam obcaecati at
-          deleniti eum possimus. Recusandae minus
+          ...сортування по кавярням, за посиланням нижче знаходиться сторінка з
+          фільтрами для всіх кавярень що представленні на цьому сайті
         </p>
         <div class="button-wrapper">
           <a href="#" class="dark-button button">Перейти до огляду кавярень</a>

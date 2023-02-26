@@ -13,7 +13,7 @@
         "bannerTitle": "Київ",
         "bannerText": "<q>Як тебе не любити, Києве мій</q>",
         "bannerImgClass": "kyiv",
-        "descrText": "Lorem ipsum kndkfhkrig Історично та й територіально місто завжди було Lorem ipsum kndkfhkrig Історично та й територіально місто завжди було Lorem ipsum kndkfhkrig Історично та й територіально місто завжди було Lorem ipsum kndkfhkrig Історично та й територіально місто завжди було Lorem ipsum kndkfhkrig"
+        "descrText": "...."
     },
     {
         "id": 300,
@@ -29,7 +29,7 @@
         "bannerTitle": "Львів",
         "bannerText": "столиця галицької кави",
         "bannerImgClass": "lviv",
-        "descrText": "Львів Львів Львів Длотвсловрцрбарвл ворисорівимрв Львів Львів Львів Длотвсловрцрбарвл ворисорівимрв Львів Львів Львів Длотвсловрцрбарвл ворисорівимрв Львів Львів Львів Длотвсловрцрбарвл ворисорівимрв Львів Львів Львів Длотвсловрцрбарвл ворисорівимрв"
+        "descrText": "...."
     },
     {
         "id": 500,
@@ -37,6 +37,6 @@
         "bannerTitle": "Одеса",
         "bannerText": "",
         "bannerImgClass": "odesa",
-        "descrText": "Lorem ipsum kndkfhkrig І Lorem ipsum kndkfhkrig Lorem ipsum kndkfhkrig nds,kvjhwkgvkjdwbv Lorem ipsum kndkfhkrig завжди було Lorem ipsum kndkfhkrig"
+        "descrText": "..."
     }
 ]
