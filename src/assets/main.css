@@ -88,13 +88,13 @@ a:focus {
     font-style: italic;
 }
 .introduction-block {
-    height: 35rem;
+    /* height: 35rem; */
     background-color: var(--color-white);
     color: var(--color-text);
     font-size: 1.4em;
     line-height: 3rem;
     text-align: center;
-    margin: 2vw;
+    margin: 5vw;
 }
 .introduction-header {
     margin: 5vw 0;
@@ -228,7 +228,6 @@ a:focus {
     text-align: center;
 }
 .desctiption-text-wrap {
-    padding: 2rem 5rem;
     text-align: center;
     margin: 2rem;
 }
@@ -236,7 +235,6 @@ a:focus {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 2rem 0;
 }
 
 .article-wrapper {
@@ -402,14 +400,16 @@ background-image: url('./img/Kyiv/yaroslava/beans4.jpg');
     font-weight: bold;
     text-transform: uppercase;
 }
-.material-symbols-outlined {
-    background-image: url('./img/star_rate_FILL0_wght400_GRAD0_opsz40.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-color: #efd6be;
+.rating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--color-background);
+    font-size: 2rem;
+    margin-top: 1.5rem;
 }
-.rating {}
+.material-icons{
+}
 .cafe__comments {
 }
 .cafe__contacts {
