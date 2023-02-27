@@ -5,7 +5,19 @@
         "text": "Автентична та єдина у своєму роді кав'ярня. Тут затишок інтер'єру зустрічається з романтикою каміну та красою вікових стін кінця XIX сторіччя.",
         "imageUrlClass": "rosteria",
         "cafeRoute": "/rosteria",
-        "city": "Franyk"
+        "city": "Franyk",
+
+        "address": "вулиця Крушельницької, 2, Івано-Франківськ, Івано-Франківська область, 76000",
+        "workHours": "Робочі години        Пн-Пт09:00 — 21:00        Сб-Нд10:00 — 21:00",
+        "telephone": "Контактний номер        +380 95 84 90 852",
+        "linkToCafe": "https://rosteria-kavy.business.site/",
+        "rating": "4.7",
+        "price": "$$ 8 Києвів з 10***",
+        "explain": "***.....",
+        "comments": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "photoGallery": [
+            "url('')"
+        ]
     },
     {
         "id": 2,
