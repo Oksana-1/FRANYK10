@@ -1,27 +1,36 @@
 <template>
+  <h1 class="cide__title">{{ cafe.title }}</h1>
   <div class="cafe-photo-wrap">
+    
     <div class="cafe__img-holder">
-      <h1 class="cafe__title">{{ cafe.title }}</h1>
-      <div class="rating">Рейтинг від сервісу GoogleMaps<i class="material-icons">star_rate</i>{{ cafe.rating }}</div>
-      <div class="cafe__price"><i class="material-icons">&#xe227;</i>{{ cafe.price }}</div>
-      <div class="cafe__comments">
-        <p>{{ cafe.comments }}</p>
-      </div>
+      <div class="cafe__main-img"></div>
     </div>
-    <div class="cafe__contacts bottom-row">
-      <div class="cafe__contacts-icon">
+    <div class="cafe__cide-description">
+      
+      <div class="cide__wrapper">
+        <div class="cide__rating"><i class="material-icons">star_rate</i>Рейтинг від сервісу GoogleMaps - {{ cafe.rating }}</div>
+        <div class="cide__price"><i class="material-icons">&#xe227;</i>{{ cafe.price }}</div>
+        <div class="cide__contacts-addres"><i class="material-icons">location_on</i>{{ cafe.address }}</div>
+        <div class="cide__contacts-telephone"><i class="material-icons">call</i>{{ cafe.telephone }}</div>
+        <h2 class="cide__working-hours"><i class="material-icons">access_time</i>{{ cafe.workHours }}</h2>
+        
+      </div>
+      <div class="cide_contacts">
         <a href="#" class="cafe__cosial-link">Instagram</a>
         <a href="#" class="cafe__cosial-link">Facebook</a>
         <a href="#" class="cafe__cite-link">Web-cite</a>
       </div>
-      <div class="cafe__contacts-addres"><i class="material-icons">location_on</i>{{ cafe.address }}</div>
-      <div class="cafe__contacts-telephone"><i class="material-icons">call</i>{{ cafe.telephone }}</div>
     </div>
   </div>
-  <div class="cafe__img-holder small">
-    <div class="cafe__img"></div>
-    <p class="cafe__description">{{ cafe.text }}</p>
-    <h2 class="cafe__working-hours"><i class="material-icons">access_time</i>{{ cafe.workHours }}</h2>
+  <div class="cafe__central-holder">
+    <div class="central-holder__description">
+      <h2 class="description__title"></h2>
+      <p class="description__subtitle">{{ cafe.text }}</p>
+    </div>
+    <div class="central-holder__comments">
+      <h3 class="comments__title">Особисті поради та рекомендації</h3>
+      <p>{{ cafe.comments }}</p>
+    </div>
   </div>
   <div class="cafe__gallery"></div>
 </template>

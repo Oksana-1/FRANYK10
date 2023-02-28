@@ -375,63 +375,82 @@ background-image: url('./img/Kyiv/yaroslava/beans4.jpg');
 /* odesa */
 
 /* cafes styles */
-
 .cafe-photo-wrap {
-    position: relative;
-    height: 45rem;
-    width: 100%;
-    background-image: url('./img/main-rosteria-cavy.jpg');    
+    display: flex;
+    flex-direction: row;
+
+}
+.cafe__img-holder {
+    background-image: url('../assets/img/Franyk/kurzeme/cup-coffee5.jpg');
+    height: 40rem;
+    width: 50%;  
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    
 }
-.cafe__img-holder {
+
+.cafe__main-img {
     background-color: rgba(14, 13, 12, 0.364);
-    height: 45rem;
+    height: 40rem;
     width: 100%;
+}
+.cafe__cide-description {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 3rem;
+    color: var(--color-main-brown);
 }
-.cafe__title {
-    color: var(--color-background);
-    font-size: 3rem;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-.rating {
+.cide__title {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    color: var(--color-background);
-    font-size: 2rem;
-    margin-top: 1.5rem;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 48px auto;
+    color: var(--color-main-brown);
 }
-.material-icons{
+.cide__wrapper {
+    margin: 3rem;
 }
-.cafe__comments {
+.material-icons {
+    padding-right: 1.5rem;
 }
-.cafe__contacts {
+.cide__rating {
+}
+.material-icons {
+}
+.cide__price {
+}
+.cide__contacts-addres {
+}
+.cide__contacts-telephone {
+}
+.cide__working-hours {
+}
+.cide__contacts {
 }
 .bottom-row {
 }
-.cafe__contacts-icon {
+.cide_contacts {
 }
 .cafe__cosial-link {
 }
 .cafe__cite-link {
 }
-.cafe__contacts-addres {
+.cafe__central-holder {
 }
-.small {
+.central-holder__description {
 }
-.cafe__img {
+.description__title {
 }
-.cafe__description {
-    color: var(--color-text);
+.description__subtitle {
 }
-.cafe__working-hours {
+.central-holder__comments {
+}
+.comments__title {
 }
 .cafe__gallery {
 }
