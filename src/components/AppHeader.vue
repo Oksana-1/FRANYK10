@@ -13,13 +13,13 @@ import { RouterLink } from "vue-router";
             <RouterLink to="/franyk">Івано-Франківськ</RouterLink>
           </li>
           <li class="nav-menu-item">
-            <RouterLink to="/lviv">Львів</RouterLink>
+            <RouterLink to="/сherkasy">Черкаси</RouterLink>
           </li>
           <li class="nav-menu-item">
             <RouterLink to="/kyiv">Київ</RouterLink>
           </li>
           <li class="nav-menu-item">
-            <RouterLink to="/сherkasy">Черкаси</RouterLink>
+            <RouterLink to="/lviv">Львів</RouterLink>
           </li>
           <li class="nav-menu-item">
             <RouterLink to="/odesa">Одеса</RouterLink>

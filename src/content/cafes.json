@@ -16,7 +16,13 @@
         "price": "$$",
         "comments": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
         "photoGallery": [
-            "url('')"
+            "url('../assets/img/Franyk/rosteria/rosteria-cavy.jpg')",
+            "url('../assets/img/Franyk/rosteria/rosteria-cavy2.jpeg')",
+            "url('../assets/img/Franyk/rosteria/rosteria-cavy3.jpg')",
+            "url('../assets/img/Franyk/rosteria/rosteria-cavy4.jpg')",
+            "url('../assets/img/Franyk/rosteria/rosteria-cavy5.jpg')",
+            "url('../assets/img/Franyk/rosteria/rosteria-cavy6.jpg')",
+            "url('../assets/img/Franyk/rosteria/rosteria-cavy7.jpg')"
         ]
     },
     {
@@ -36,7 +42,8 @@
         "price": "$$",
         "comments": "Родзинка закладу - відкрита кухня і приготування страв в унікальній печі ручної роботи.",
         "photoGallery": [
-            "url('')"
+            "url('../assets/img/Franyk/fabrica/work-place-coffee4.jpg')",
+            "url('../assets/img/Franyk/fabrica/coffee-mashine3.jpg')"
         ]
     },
     {
@@ -56,7 +63,11 @@
         "price": "$$$",
         "comments": "Кількість десертів та їх різноманіття - просто збивають з пантелику... але рекомендую скуштувати Франківський торт, дуже легкий та смачний десерт, ну і де ще ж його куштувати?!)))",
         "photoGallery": [
-            "url('')"
+            "url('../assets/img/Franyk/Delikacia/delikacia2.jpg')",
+            "url('../assets/img/Franyk/Delikacia/cake.jpg')",
+            "url('../assets/img/Franyk/Delikacia/frankivsk-cake.jpg')",
+            "url('../assets/img/Franyk/Delikacia/icibana.jpg')",
+            "url('../assets/img/Franyk/Delikacia/cup-coffee7.jpg')"
         ]
     },
     {
@@ -76,7 +87,10 @@
         "price": "$$",
         "comments": "Найсмачніший сирник серед всіх що довелось куштувати... я б навіть сказала що це саме той вмпадок, коли кажуть, що справжнім предком чізкейку був саме український сирник.",
         "photoGallery": [
-            "url('')"
+            "url('../assets/img/Franyk/tradycia/tradycia.jpg')",
+            "url('../assets/img/Franyk/tradycia/tradycia1.jpg')",
+            "url('../assets/img/Franyk/tradycia/tradycia2.jpg')",
+            "url('../assets/img/Franyk/tradycia/cheesecake.jpg')"
         ]
     },
     {
@@ -96,7 +110,13 @@
         "price": "$$",
         "comments": "Дуже рекомендую відвідати їх кавярню саме на набережній з розкішним видом на Дніпро. Окрім того, в них неймовірна кава власного обсмаження.",
         "photoGallery": [
-            "url('')"
+            "url('../assets/img/cherkasy/fabryka/fabryka.jfif')",
+            "url('../assets/img/cherkasy/fabryka/cava-dnipro.jpg')",
+            "url('../assets/img/cherkasy/fabryka/fabryka-vhid.jpg')",
+            "url('../assets/img/cherkasy/fabryka/view-coffee.jpg')",
+            "url('../assets/img/cherkasy/fabryka/fireplace.jpg')",
+            "url('../assets/img/cherkasy/fabryka/candle.jpg')",
+            "url('../assets/img/cherkasy/fabryka/kish&coffee.jpg')"
         ]
     },
     {
@@ -116,7 +136,11 @@
         "price": "$$",
         "comments": "Дуже рекомендую меренговий рулет - він закохає вас в себе з першого шматочка",
         "photoGallery": [
-            "url('')"
+            "url('../assets/img/cherkasy/endorfin/endorfin-soup.jpg')",
+            "url('../assets/img/cherkasy/endorfin/cafe1.jpg')",
+            "url('../assets/img/cherkasy/endorfin/cup-coffee10.jpg')",
+            "url('../assets/img/cherkasy/endorfin/cup-coffee8.jpg')",
+            "url('../assets/img/cherkasy/endorfin/work-place-coffee.jpg')"
         ]
     },
     {
@@ -134,18 +158,32 @@
         "socialLink": "https://www.instagram.com/lviv.chocolate/",
         "rating": "4.5",
         "price": "$$",
-        "comments": "Поєднання смачної кави та шоколаду ... для мене це просто кохання з першого погляду. Звісно, що мережа розвинута і в багатьох містах України є ці майстерені, але саме ця в Черкасах найулюбленіша...",
+        "comments": "Поєднання смачної кави та шоколаду ... для мене це просто любов... Звісно, що мережа розвинута, велика і в багатьох містах України є ці майстерені, але саме ця в Черкасах найулюбленіша...",
         "photoGallery": [
-            "url('')"
+            "url('../assets/img/cherkasy/shocoladu/cafe5.jpg')",
+            "url('../assets/img/cherkasy/shocoladu/city1.jpg')",
+            "url('../assets/img/cherkasy/shocoladu/lvivska-shocoladu.jfif')"
         ]
     },
     {
         "id": 8,
         "title": "Idealist",
-        "text": "lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+        "text": "Мережа кавярень, що стала особливо відомою після колоборації з Укрзалізницею. Кав'ярні мають стильний та затишний інтер'єр, створений в сучасному мінімалістичному стилі з приємною музикою та безкоштовним Wi-Fi. Idealist Coffee Co також займається продажем кавових зерен та аксесуарів для приготування кави вдома. Кав'ярня знаходиться у центрі міста та зручно розташована поруч з головними туристичними визначними пам'ятками.",
         "imageUrlClass": "idealist",
         "cafeRoute": "/idealist",
-        "city": "Kyiv"
+        "city": "Kyiv",
+
+        "address": "вулиця Ярославів Вал, 15, Київ, 01030",
+        "workHours": "Пн-Нд 08:00 - 21:00",
+        "telephone": "+380 67 62 05 374",
+        "linkToCafe": "https://idealistcoffee.com/",
+        "socialLink": "https://www.instagram.com/idealistcoffee/",
+        "rating": "4.2",
+        "price": "$$",
+        "comments": "",
+        "photoGallery": [
+            "url('../assets/img/Kyiv')"
+        ]
     },
     {
         "id": 9,
