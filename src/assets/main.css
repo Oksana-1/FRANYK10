@@ -30,7 +30,7 @@ a {
     font-size: 1.2rem;
     font-weight: 600;
     color: var(--color-main-brown);
-    transition: 0.3s ease-in-out;
+    transition: 0.3s all ease-in-out;
 }
 a:hover, 
 a:active,
@@ -375,82 +375,107 @@ background-image: url('./img/Kyiv/yaroslava/beans4.jpg');
 /* odesa */
 
 /* cafes styles */
+.cafe__wrapper {
+    margin: 2rem;
+}
 .cafe-photo-wrap {
     display: flex;
     flex-direction: row;
-
 }
 .cafe__img-holder {
     background-image: url('../assets/img/Franyk/kurzeme/cup-coffee5.jpg');
-    height: 40rem;
-    width: 50%;  
+    height: 45rem;
+    width: 80%;  
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    
 }
-
 .cafe__main-img {
-    background-color: rgba(14, 13, 12, 0.364);
-    height: 40rem;
+    background-color: rgba(2, 1, 0, 0.4);
+    height: 45rem;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.cide__rating,
+.cide__price {
+    color: var(--color-background);
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    font-style: italic;
 }
 .cafe__cide-description {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     justify-content: space-between;
-    margin: 3rem;
+    margin: 0 3rem;
     color: var(--color-main-brown);
+    line-height: 3rem;
 }
 .cide__title {
-    display: flex;
-    justify-content: center;
     text-transform: uppercase;
-    font-size: 4rem;
-    font-weight: bold;
-    margin: 48px auto;
+    font-size: 3.5rem;
+    margin: 2rem auto;
     color: var(--color-main-brown);
 }
 .cide__wrapper {
-    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    
 }
 .material-icons {
     padding-right: 1.5rem;
+
 }
-.cide__rating {
+.cide__bar {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
 }
-.material-icons {
-}
-.cide__price {
-}
-.cide__contacts-addres {
-}
-.cide__contacts-telephone {
-}
-.cide__working-hours {
-}
-.cide__contacts {
-}
-.bottom-row {
+.icon-holder {
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
 }
 .cide_contacts {
+    display: flex;
+    justify-content: space-between;
 }
-.cafe__cosial-link {
-}
-.cafe__cite-link {
+.cafe__link:hover {
+    text-decoration: underline;
+    color: black;
 }
 .cafe__central-holder {
+    margin: 3rem 0;
+    display: flex;
+    flex-direction: row;
 }
 .central-holder__description {
+    width: 60%; 
+    height: auto; 
+    /* padding: 2rem; */
 }
-.description__title {
+.description__title,
+.comments__title {
+    margin: 2rem 0;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 .description__subtitle {
 }
 .central-holder__comments {
-}
-.comments__title {
+    width: 35%;  
+    height: auto; 
+    margin-right: 3rem;
+    padding: 0.5rem;
+    color: var(--color-main-brown);
+    background-color: var(--color-background);
+    background: linear-gradient(155deg,#efd6be 0%, white 100%);
 }
 .cafe__gallery {
 }
