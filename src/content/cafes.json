@@ -16,13 +16,13 @@
         "price": "$$",
         "comments": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
         "photoGallery": [
-            "../assets/img/Franyk/rosteria/rosteria-cavy.jpg",
-            "../assets/img/Franyk/rosteria/rosteria-cavy2.jpeg",
-            "../assets/img/Franyk/rosteria/rosteria-cavy3.jpg",
-            "../assets/img/Franyk/rosteria/rosteria-cavy4.jpg",
-            "../assets/img/Franyk/rosteria/rosteria-cavy5.jpg",
-            "../assets/img/Franyk/rosteria/rosteria-cavy6.jpg",
-            "../assets/img/Franyk/rosteria/rosteria-cavy7.jpg"
+            "/Franyk/rosteria/rosteria-cavy.jpg",
+            "/Franyk/rosteria/rosteria-cavy2.jpeg",
+            "/Franyk/rosteria/rosteria-cavy3.jpg",
+            "/Franyk/rosteria/rosteria-cavy4.jpg",
+            "/Franyk/rosteria/rosteria-cavy5.jpg",
+            "/Franyk/rosteria/rosteria-cavy6.jpg",
+            "/Franyk/rosteria/rosteria-cavy7.jpg"
         ]
     },
     {
@@ -52,7 +52,7 @@
         "text": "Кав'ярня-магазин домашніх десертів та кондитерських виробів. Тут можна скуштувати свіжоприготовлену випічку та десерти, а також солодощі, які виготовляються власноруч майстринями Delikacia. В асортименті закладу також є широкий вибір здорової їжі, напоїв та снеків. Delikacia - це ідеальне місце для тих, хто любить солодке та затишну атмосферу. Крім того, в магазині можна придбати десерти та солодощі на виніс, щоб насолоджуватися їх смаком вдома.",
         "imageUrlClass": "delikacia",
         "cafeRoute": "/delikacia",
-        "city": "Franyk", 
+        "city": "Franyk",
 
         "address": "вулиця Незалежності, 20, Івано-Франківськ, Івано-Франківська область, 76000",
         "workHours": "Пн-Нд 07:45 - 21:00",
@@ -63,11 +63,11 @@
         "price": "$$$",
         "comments": "Кількість десертів та їх різноманіття - просто збивають з пантелику... але рекомендую скуштувати Франківський торт, дуже легкий та смачний десерт, ну і де ще ж його куштувати?!)))",
         "photoGallery": [
-            "url('../assets/img/Franyk/Delikacia/delikacia2.jpg')",
-            "url('../assets/img/Franyk/Delikacia/cake.jpg')",
-            "url('../assets/img/Franyk/Delikacia/frankivsk-cake.jpg')",
-            "url('../assets/img/Franyk/Delikacia/icibana.jpg')",
-            "url('../assets/img/Franyk/Delikacia/cup-coffee7.jpg')"
+            "url('/Franyk/Delikacia/delikacia2.jpg')",
+            "url('/Franyk/Delikacia/cake.jpg')",
+            "url(/Franyk/Delikacia/frankivsk-cake.jpg')",
+            "url('/Franyk/Delikacia/icibana.jpg')",
+            "url('/Franyk/Delikacia/cup-coffee7.jpg')"
         ]
     },
     {
@@ -240,5 +240,5 @@
         "imageUrlClass": "yaroslava",
         "cafeRoute": "/yaroslava",
         "city": "Kyiv"
-    }    
+    }
 ]

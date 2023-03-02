@@ -1,6 +1,8 @@
 <template>
   <lightgallery :settings="{ speed: 500, plugins: plugins }">
-    <GalleryImg v-for="image in gallery" :key="image" :img="image" />
+    <ul>
+      <GalleryImg v-for="image in gallery" :key="image" :img="image" />
+    </ul>
   </lightgallery>
 </template>
 <script>
