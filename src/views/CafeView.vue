@@ -1,7 +1,7 @@
 <template>
   <div class="cafe__wrapper">
     <div class="cafe-photo-wrap">
-      <div class="cafe__img-holder">
+      <div class="cafe__img-holder" :class="cafe.imageUrlClass">
         <div class="cafe__main-img">
           <div class="cide__rating">
             <i class="material-icons">star_rate</i>Рейтинг GoogleMaps:
@@ -35,7 +35,9 @@
           </div>
         </div>
         <div class="cide_contacts">
-          <a href="{{ cafe.socialLink }}" class="cafe__link" target="_blank">Social Media</a>
+          <a href="{{ cafe.socialLink }}" class="cafe__link" target="_blank"
+            >Social Media</a
+          >
           <a href="#" class="cafe__link" target="_blank">Web-cite</a>
         </div>
       </div>
@@ -52,13 +54,18 @@
     </div>
     <div class="cafe__gallery">
       <h2 class="gallery__title">Photo Gallery</h2>
+      <div class="gallery__holder">
+      <AppGallery :gallery="cafe.photoGallery" />
+      </div>
     </div>
   </div>
 </template>
 <script>
 import cafes from "../content/cafes.json";
+import AppGallery from "../components/cafe/AppGallery.vue";
 
 export default {
+  components: { AppGallery },
   data() {
     return {
       cafeId: this.$route.params.id,

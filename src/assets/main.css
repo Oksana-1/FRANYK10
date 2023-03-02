@@ -236,7 +236,6 @@ a:focus {
     flex-direction: row;
     flex-wrap: wrap;
 }
-
 .article-wrapper {
     width: 50%;
     display: flex;
@@ -261,7 +260,6 @@ a:focus {
     background: #F4EDE6;
     background: linear-gradient(180deg,#ddd1c5 0%, white 100%);
 }
-
 .img-holder {
     margin: 1rem;
     max-width: 100%;
@@ -360,11 +358,11 @@ background-image: url('./img/Kyiv/yaroslava/beans4.jpg');
     background-image: url('./img/Kyiv/italist/cafe.jpg');
 }
 .halva {
-    background-image: url(../assets/img/Kyiv/halva/cup-coffee3.jpg);
+    background-image: url('../assets/img/Kyiv/halva/cup-coffee3.jpg');
     background-position: 30% 70%;
 }
 .idealist {
-    background-image: url(../assets/img/Kyiv/pishohidnyi.jpg);
+    background-image: url('../assets/img/Kyiv/pishohidnyi.jpg');
 }
 .foodMarket {
     background-image: url('./img/Kyiv/food-market/cup-coffee11.jpg');
@@ -383,7 +381,7 @@ background-image: url('./img/Kyiv/yaroslava/beans4.jpg');
     flex-direction: row;
 }
 .cafe__img-holder {
-    background-image: url('../assets/img/Franyk/kurzeme/cup-coffee5.jpg');
+    /* background-image: url('../assets/img/Franyk/kurzeme/cup-coffee5.jpg'); */
     height: 45rem;
     width: 80%;  
     background-repeat: no-repeat;
@@ -429,7 +427,6 @@ background-image: url('./img/Kyiv/yaroslava/beans4.jpg');
 }
 .material-icons {
     padding-right: 1.5rem;
-
 }
 .cide__bar {
     display: flex;
@@ -458,7 +455,6 @@ background-image: url('./img/Kyiv/yaroslava/beans4.jpg');
 .central-holder__description {
     width: 60%; 
     height: auto; 
-    /* padding: 2rem; */
 }
 .description__title,
 .comments__title {

@@ -16,13 +16,13 @@
         "price": "$$",
         "comments": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
         "photoGallery": [
-            "url('../assets/img/Franyk/rosteria/rosteria-cavy.jpg')",
-            "url('../assets/img/Franyk/rosteria/rosteria-cavy2.jpeg')",
-            "url('../assets/img/Franyk/rosteria/rosteria-cavy3.jpg')",
-            "url('../assets/img/Franyk/rosteria/rosteria-cavy4.jpg')",
-            "url('../assets/img/Franyk/rosteria/rosteria-cavy5.jpg')",
-            "url('../assets/img/Franyk/rosteria/rosteria-cavy6.jpg')",
-            "url('../assets/img/Franyk/rosteria/rosteria-cavy7.jpg')"
+            "../assets/img/Franyk/rosteria/rosteria-cavy.jpg",
+            "../assets/img/Franyk/rosteria/rosteria-cavy2.jpeg",
+            "../assets/img/Franyk/rosteria/rosteria-cavy3.jpg",
+            "../assets/img/Franyk/rosteria/rosteria-cavy4.jpg",
+            "../assets/img/Franyk/rosteria/rosteria-cavy5.jpg",
+            "../assets/img/Franyk/rosteria/rosteria-cavy6.jpg",
+            "../assets/img/Franyk/rosteria/rosteria-cavy7.jpg"
         ]
     },
     {
